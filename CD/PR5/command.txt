@@ -1,0 +1,4 @@
+1) lex Prac5.l
+2) yacc -d prac5.y
+3) cc lex.yy.c y.tab.c -ll
+4) ./a.out < input.txt

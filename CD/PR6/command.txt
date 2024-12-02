@@ -1,0 +1,4 @@
+1) lex prac6.l
+2) yacc -d prac6.y
+3) cc lex.yy.c y.tab.c -ll
+4) ./a.out

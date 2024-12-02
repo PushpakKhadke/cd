@@ -1,0 +1,4 @@
+1) lex 4.l
+2) yacc -d 4.y
+3) cc lex.yy.c y.tab.c -ll
+4) ./a.out
